@@ -8,7 +8,8 @@ def main():
         imgsz=640,
         batch=16,
         patience=50,  # early stopping: 50 epoch 동안 개선 없으면 중단
-        name="yolov8s-seg_custom"
+        save_period=5,  # 5 epochs마다 모델 저장
+        name="yolov8s-seg_custom_again"
     )
 
 if __name__ == '__main__':
