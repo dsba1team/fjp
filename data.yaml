@@ -1,0 +1,41 @@
+path: C:\Users\User\Desktop\total\dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: barricade
+  1: bench
+  2: bicycle
+  3: bollard
+  4: bus
+  5: car
+  6: carrier
+  7: cat
+  8: chair
+  9: dog
+  10: fire_hydrant
+  11: kiosk
+  12: motorcycle
+  13: movable_signage
+  14: parking_meter
+  15: person
+  16: pole
+  17: potted_plant
+  18: power_controller
+  19: scooter
+  20: stop
+  21: stroller
+  22: table
+  23: traffic_light
+  24: traffic_light_controller
+  25: traffic_sign
+  26: tree_trunk
+  27: truck
+  28: wheelchair
+  29: off
+  30: green_traffic_light
+  31: red_traffic_light
+  32: braille_block
+  33: crosswalk
+  34: kick
