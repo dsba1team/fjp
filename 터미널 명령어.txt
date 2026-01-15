@@ -1,0 +1,20 @@
+python --version
+pip install ultralytics 
+//test.py 파일 만든 이후에
+python test.py  
+//모델 경로 수정이후
+python test.py // 버스 사진이 나옴
+// 터미널에서 실행하면 xml파일이 txt파일로 나눠지고 classes.txt파일 생성
+python separation.py 
+
+// 폴더 생성하는 코드 터미널에서 실행
+mkdir dataset
+mkdir dataset\images
+mkdir dataset\images\train
+mkdir dataset\labels
+mkdir dataset\labels\train
+
+
+//사진을 복사해서 옮겨주는 코드 터미널에서 사용
+Get-ChildItem .\폴더명 -Recurse -Filter *.png `
+  | Copy-Item -Destination .\dataset\images\train -Force
